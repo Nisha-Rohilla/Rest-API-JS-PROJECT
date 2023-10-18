@@ -1,0 +1,107 @@
+/* Apply styles to the header */
+#header {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Apply styles to the form container */
+  #form_div {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Apply styles to labels */
+  label {
+    color: brown;
+    margin-bottom: 8px;
+  }
+  
+  /* Apply styles to input fields */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the button */
+  .btn {
+    background-color: #333; /* Light black color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Add some space around the button */
+  .btn-container {
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  /* Apply styles to the categories */
+  h2 {
+    color: black;
+    margin-top: 20px;
+  }
+  
+  /* Apply styles to the lists */
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Apply styles to list items */
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Styles for the update button */
+  #upd button {
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the update button container */
+  #upd {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+/* Styles for the "Delete" button */
+.delete-btn {
+    background-color:  rgb(66, 40, 40);;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px; /* Add spacing between buttons */
+  }
+
+  .edit-btn {
+    background-color: rgb(62, 95, 62);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
